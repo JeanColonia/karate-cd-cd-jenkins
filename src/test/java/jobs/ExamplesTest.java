@@ -23,7 +23,7 @@ class ExamplesTest {
         Results results = Runner.path("classpath:jobs")
                 .outputCucumberJson(true)
                 .parallel(5);
-                generateReport(results.getReportDir());
+        generateReport(results.getReportDir());
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
     }
 

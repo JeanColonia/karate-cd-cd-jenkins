@@ -1,7 +1,7 @@
 Feature: Update Feature
 
 Background: setting variables
- * def baseUrl = 'http://localhost:9798/normal/webapi'
+ * def baseUrl = 'http://localhost:9898/normal/webapi'
  * def postRequestData = call read('./createJob.feature')
  * def id = postRequestData.jobId
 

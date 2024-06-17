@@ -1,7 +1,7 @@
 Feature: Find job
 
 Background: setting variables
-* def baseUrl = 'http://localhost:9798'
+* def baseUrl = 'http://localhost:9898'
 
 @findJob
 Scenario: find job with params

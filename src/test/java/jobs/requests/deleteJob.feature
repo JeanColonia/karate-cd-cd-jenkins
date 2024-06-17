@@ -1,7 +1,7 @@
 Feature: Delete job
 
 Background: setting variables
- * def baseUrl = 'http://localhost:9798/normal/webapi'
+ * def baseUrl = 'http://localhost:9898/normal/webapi'
  * def findRequestData = call read('./findJob.feature')
  * def id_ = findRequestData.response.jobId
  * def jobTitle_ = findRequestData.response.jobTitle

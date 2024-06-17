@@ -1,8 +1,8 @@
 Feature: Get all jobs
 
 
-Background: setting variablesd
-* def baseUrl = 'http://localhost:9798/normal/webapi'
+Background: setting variables
+* def baseUrl = 'http://localhost:9898/normal/webapi'
 
 @jobs
 Scenario: Getting all jobs 

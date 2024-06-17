@@ -1,7 +1,7 @@
 Feature: Update Details
 
 Background: setting variables
-* def baseUrl = 'http://localhost:9798'
+* def baseUrl = 'http://localhost:9898'
 
 @updateDetailsJob
 Scenario: partial update a job

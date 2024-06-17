@@ -2,7 +2,7 @@ Feature: Create Job
 
 
 Background: setting variables
-* def baseUrl = 'http://localhost:9798/normal/webapi'
+* def baseUrl = 'http://localhost:9898/normal/webapi'
 * def printLog = function (jobTitle_){ return console.log("Trabajas como: ", jobTitle_) }
 * def randomId = function (){ return Math.floor((100) * Math.random())}
 * def getRandomId = randomId()

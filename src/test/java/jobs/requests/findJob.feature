@@ -1,7 +1,7 @@
 Feature: Find job
 
 Background: setting variables
-* def baseUrl = 'http://localhost:9798'
+* def baseUrl = 'http://localhost:9898'
 * def postJob = call read('./createJob.feature')
 * def jobId_ = postJob.response.jobId
 * def jobTitle_ = postJob.response.jobTitle
